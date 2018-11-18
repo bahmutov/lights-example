@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "jsx": "hyperapp",
+    "jsxFactory": "h"
+  },
+  "exclude": ["node_modules", "**/node_modules"]
+}

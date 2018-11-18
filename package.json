@@ -1,0 +1,28 @@
+{
+  "name": "lights-example",
+  "version": "1.0.0",
+  "description": "Example of a small Hyperapp application driven by a state machine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel serve src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/lights-example.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bahmutov/lights-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/lights-example#readme",
+  "dependencies": {
+    "hyperapp": "1.2.9",
+    "xstate": "4.1.2"
+  },
+  "devDependencies": {
+    "parcel-bundler": "1.10.3"
+  }
+}
