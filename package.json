@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "parcel serve src/index.html"
+    "start": "parcel serve src/index.html",
+    "paths": "node -r esm scripts/paths"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,9 @@
     "xstate": "4.1.2"
   },
   "devDependencies": {
-    "parcel-bundler": "1.10.3"
+    "esm": "3.0.84",
+    "parcel-bundler": "1.10.3",
+    "ts-node": "7.0.1",
+    "typescript": "3.1.6"
   }
 }
