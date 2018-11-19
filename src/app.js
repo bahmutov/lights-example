@@ -3,4 +3,4 @@ import { actions } from './actions'
 import machine from './machine'
 import { view } from './view'
 
-app({ state: machine.initialState }, actions, view, document.body)
+app({ xstate: machine.initialState }, actions, view, document.body)

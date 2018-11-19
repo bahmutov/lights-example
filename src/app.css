@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#app {
+  width: 100%;
+  height: 100%;
+}
+.green {
+  background-color: green;
+}
+.yellow {
+  background-color: yellow;
+}
+.red {
+  background-color: red;
+}
